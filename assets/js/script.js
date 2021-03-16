@@ -223,9 +223,6 @@ var saveTasks = function() {
     localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
-// get tasks
-// convert tasks
-// iterate array
 var loadTasks = function() {
     tasks = localStorage.getItem("tasks");
     if (tasks === null) {
@@ -267,7 +264,6 @@ var loadTasks = function() {
         }
 
         taskIdCounter++;
-        console.log(listItemEl);
     }
 };
 
